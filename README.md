@@ -77,4 +77,4 @@ The data is analyzed to determine the water quality:
 
 ## output in blynk app
 
-!(https://github.com/stutiuneyal/Water_Monitoring_System_IOT/blob/main/output.jpg)!
+![screenshot of output in blynk app](https://github.com/stutiuneyal/Water_Monitoring_System_IOT/blob/main/output.jpg)
