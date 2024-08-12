@@ -25,8 +25,8 @@ This project demonstrates how to monitor Total Dissolved Solids (TDS) in water u
 ## Installation
 **1. Clone the repository**
    
-`https://github.com/stutiuneyal/Water_Monitoring_System_IOT.git
-cd TDS-Sensor-Monitoring`
+`https://github.com/stutiuneyal/Water_Monitoring_System_IOT.git`
+`cd TDS-Sensor-Monitoring`
 
 **2. Install the required libraries**
  
@@ -40,6 +40,7 @@ cd TDS-Sensor-Monitoring`
   - OneWire
   
 **3. Configure the project**
+
 Replace the WiFi credentials and Blynk authorization token in the source code with your own.
 Upload the code to your ESP8266 board.
 
@@ -70,3 +71,10 @@ The data is analyzed to determine the water quality:
 - TDS between 250-300 PPM: Fair for drinking.
 - TDS above 300 PPM: Poor, not good for drinking.
 - TDS above 1200 PPM: Unacceptable.
+
+> [!WARNING]
+> You should have CP210x_Universal_Windows_Driver installed in your system.
+
+## output in blynk app
+
+!(https://github.com/stutiuneyal/Water_Monitoring_System_IOT/blob/main/output.jpg)!
